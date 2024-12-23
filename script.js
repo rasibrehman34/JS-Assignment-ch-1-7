@@ -36,7 +36,7 @@ function sub() {
     let b = 20;
     let c = a - b;
     console.log(c)
-    document.getElementById("statement").innerHTML = " c = a - b";
+    document.getElementById("statement").innerHTML = " a = 10, b = 20";
     document.getElementById("output").innerHTML = c;
 
 }
@@ -47,7 +47,7 @@ function mult() {
     let b = 20;
     let multiply = a * b;
     console.log(multiply)
-    document.getElementById("statement").innerHTML = " multiply = a * b";
+    document.getElementById("statement").innerHTML = " a = 10, b = 20";
     document.getElementById("output").innerHTML = multiply;
 
 }
@@ -58,7 +58,7 @@ function divide(){
     let b = 20;
     let Divide = a / b;
     console.log(Divide)
-    document.getElementById("statement").innerHTML = "Divide = a / b ";
+    document.getElementById("statement").innerHTML = "a = 10, b = 20 ";
     document.getElementById("output").innerHTML = Divide;
 
 }
@@ -71,15 +71,12 @@ function cal() {
     let d  = 10
     let calculation = [c*(a + b)/d];
     console.log(calculation)
-    document.getElementById("statement").innerHTML = "calculation = [c*(a + b)/d]" ;
+    document.getElementById("statement").innerHTML = "a = 40, b = 20, c = 5, d = 10 [c*(a + b)/d]" ;
     document.getElementById("output").innerHTML = calculation;
 
 
     
 }
-
-
-
 
 
 
@@ -93,4 +90,6 @@ function clearResult() {
     document.getElementById("output").innerHTML = " ";
     
 }
+   
+
    
