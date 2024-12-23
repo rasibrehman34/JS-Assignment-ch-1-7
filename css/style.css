@@ -1,0 +1,33 @@
+.hero{
+    background-color: grey;
+
+}
+h2{
+    font-size: 28px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: none;
+    margin: 5px;
+
+}
+h3{
+    margin-top: 50px;
+    text-align: center;
+}
+#statement, #output{
+    border: 2px solid black;
+    padding: 20px;
+}
+#btnClear, #btnResult{
+    display: flex;
+    margin: 8px auto;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+footer h2{
+   text-align: center;
+   margin-bottom: 0;
+}
